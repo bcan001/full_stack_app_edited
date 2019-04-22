@@ -12,6 +12,11 @@ import ReactDOM from 'react-dom';
 
 
 import Card from './Card';
+import Users from './Users'
+
+
 ReactDOM.render(<Card />, document.getElementById('root')); // see public/index.html file
+ReactDOM.render(<Users />, document.getElementById('root2')); // see public/index.html file
+
 
 
